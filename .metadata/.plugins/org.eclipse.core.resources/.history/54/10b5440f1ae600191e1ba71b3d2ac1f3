@@ -1,0 +1,13 @@
+//Rectangle class
+public class Rectangle2 extends PointABS{
+	
+	private int width; //instance variable to store
+	private int length; //instance variable to store
+	
+	//constructor
+	public Rectangle2() {
+		super();
+		width = 15;
+		length = 15;
+	}
+}

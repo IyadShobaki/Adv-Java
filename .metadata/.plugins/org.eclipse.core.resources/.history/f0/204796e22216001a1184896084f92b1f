@@ -1,0 +1,24 @@
+
+
+public class RaceCarThreadTest {
+
+	public static void main(String[] args) {
+		
+
+		RaceCarThread corvette, ferrari, viper, audi, porche;
+		corvette = new RaceCarThread("Corvette");
+		ferrari = new RaceCarThread("Ferrari");
+		viper = new RaceCarThread("Viper");
+		audi = new RaceCarThread("Audi");
+		porche = new RaceCarThread("Porche");
+		
+
+		corvette.start();
+		ferrari.start();
+		viper.start();
+		audi.start();
+		porche.start();
+
+	}
+
+}

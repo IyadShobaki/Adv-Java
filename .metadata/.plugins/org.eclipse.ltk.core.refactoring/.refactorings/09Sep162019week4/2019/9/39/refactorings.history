@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;09Sep222019Lab04/src&apos;&#x0D;&#x0A;- Original project: &apos;09Sep162019week4&apos;&#x0D;&#x0A;- Destination element: &apos;09Sep222019Lab04/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     LessThanZeroException.java&#x0D;&#x0A;     InputWidthLengthHeight.java&#x0D;&#x0A;     LessThanOrEqualToZeroException.java" description="Copy compilation units" destination="=09Sep222019Lab04/src" element1="/src&lt;{LessThanZeroException.java" element2="/src&lt;{InputWidthLengthHeight.java" element3="/src&lt;{LessThanOrEqualToZeroException.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1569157372997" units="3" version="1.0"/>
+</session>

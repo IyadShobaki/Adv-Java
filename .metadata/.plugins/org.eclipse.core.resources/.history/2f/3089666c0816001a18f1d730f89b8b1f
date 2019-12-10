@@ -1,0 +1,10 @@
+
+public class AnotherThread extends Thread{
+
+	@Override
+	public synchronized void start() {
+		System.out.println("Hello from another thread");
+		
+	}
+	
+}

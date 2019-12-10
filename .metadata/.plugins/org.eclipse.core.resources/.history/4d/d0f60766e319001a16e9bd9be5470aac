@@ -1,0 +1,27 @@
+//Hacker Rank
+public class PageCounter {
+
+	public static void main(String[] args) {
+		System.out.println(pageCount(6, 2));
+
+	}
+	public static int pageCount(int n, int p) {
+		if(p == 1 || p == n) {
+			return 0;
+		}
+		int lr = 0;
+		int rl = 0;
+		
+		int i =1;
+		while(i != p) {
+			lr++;
+			i++;
+		}
+		System.out.println(lr);
+		System.out.println(i);
+		
+		return lr;
+		
+		
+    }
+}

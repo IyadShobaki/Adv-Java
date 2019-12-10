@@ -1,0 +1,20 @@
+package Teacher;
+
+public class EX04ThreadThings extends Thread{
+	public int totalSleep;
+	
+	public EX04ThreadThings(String s) {
+		super(s);
+	}
+	public void run() {
+		for (int i =0; i < 5; i++) {
+			try {
+				int sleepTime = (int) (Math.random() * 1000);
+				totalSleep += sleepTime;
+				System.out.printf("%2d %s ST %d Total Sleep");
+			} catch (InterruptedException e) {
+				// TODO: handle exception
+			}
+		}
+	}
+}

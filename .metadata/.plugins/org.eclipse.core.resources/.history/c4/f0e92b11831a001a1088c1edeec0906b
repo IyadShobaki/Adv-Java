@@ -1,0 +1,12 @@
+
+public class CountingValleys {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	 public static int countingValleys(int n, String s) {
+	        
+
+	 }
+}

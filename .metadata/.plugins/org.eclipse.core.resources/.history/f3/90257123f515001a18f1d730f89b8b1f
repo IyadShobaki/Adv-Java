@@ -1,0 +1,12 @@
+import javax.swing.JLabel;
+import javax.swing.SwingWorker;
+
+public class BackgroundCalculator extends SwingWorker<Long, Object>{
+	private final int n; // Fibonacci number to calculate
+	private final JLabel resultJLabel;//JLabel to display the result
+	
+	//constructor
+	public BackgroundCalculator(int n, JLabel resultJLabel) {
+		
+	}
+}

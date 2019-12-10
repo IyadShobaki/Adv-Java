@@ -1,0 +1,16 @@
+package Teacher;
+
+public class EX01HelloThread extends Thread{
+	
+	public EX01HelloThread(String name) {
+		super(name);
+	}
+	public EX01HelloThread() {
+		super();
+	}
+	public static void main(String[] args) {
+		
+
+	}
+
+}

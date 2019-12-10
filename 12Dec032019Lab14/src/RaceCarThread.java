@@ -1,0 +1,115 @@
+//I Shobaki
+//RaceCarThread class
+import java.security.SecureRandom;
+
+public class RaceCarThread extends Thread{
+
+	private static boolean raceNow;
+	private double lapsCompleted;
+	public int sleepTime;
+	private static final SecureRandom rand = new SecureRandom();
+
+	//constructor
+	public RaceCarThread(String name) {
+		super(name);
+		raceNow = true;
+		lapsCompleted =0;
+	}
+
+	public void run() {
+		do {				
+			double random = Math.random();
+			lapsCompleted += random;
+			//set raceNow to false if the current object lapsCompleted >= 15
+			if(lapsCompleted >= 15) {
+				raceNow = false;
+
+				//The winner is current object but if I print and break at this if statement
+				//will not show the last lap info for the winner
+
+				//System.out.println("========================================");
+				//System.out.printf("The Winner is %s%n%s was the first to complete 15 laps.\n", getName(), getName());
+				//System.out.println("========================================");						
+				//break;
+			}
+			try {
+				if(getName().equals("Corvette")) {
+					System.out.printf("%s on Lap #  %.2f%n",getName(),lapsCompleted);
+					System.out.printf("%s Laps Remaining  %.2f%n",getName(), (15 - lapsCompleted));
+					int geneartor = rand.nextInt(333);
+					sleepTime += geneartor;
+					Thread.sleep( geneartor);
+					if(lapsCompleted >= 15) {
+						System.out.println("========================================");
+						System.out.printf("The Winner is %s%n%s was the first to complete 15 laps.\n", getName(), getName());
+						System.out.println("========================================");						
+						break;
+					}
+				}
+				else if(getName().equals("Ferrari")) {
+					System.out.printf("%s on Lap #  %.2f%n",getName(),lapsCompleted);
+					System.out.printf("%s Laps Remaining  %.2f%n",getName(), (15 - lapsCompleted));
+					int geneartor = rand.nextInt(333);
+					sleepTime += geneartor;
+					Thread.sleep( geneartor); 	
+					if(lapsCompleted >= 15) {						
+						System.out.println("========================================");
+						System.out.printf("The Winner is %s%n%s was the first to complete 15 laps.\n", getName(), getName());
+						System.out.println("========================================");				
+						break;
+					}
+				}
+				else if(getName().equals("Viper")) {
+					System.out.printf("%s on Lap #  %.2f%n",getName(),lapsCompleted);
+					System.out.printf("%s Laps Remaining  %.2f%n",getName(), (15 - lapsCompleted));
+					int geneartor = rand.nextInt(333);
+					sleepTime += geneartor;
+					Thread.sleep( geneartor);			
+					if(lapsCompleted >= 15) {				
+						System.out.println("========================================");
+						System.out.printf("The Winner is %s%n%s was the first to complete 15 laps.\n", getName(), getName());
+						System.out.println("========================================");						
+						break;
+					}
+				}
+				else if(getName().equals("Audi")) {
+					System.out.printf("%s on Lap #  %.2f%n",getName(),lapsCompleted);
+					System.out.printf("%s Laps Remaining  %.2f%n",getName(), (15 - lapsCompleted));
+					int geneartor = rand.nextInt(333);
+					sleepTime += geneartor;
+					Thread.sleep( geneartor);				
+					if(lapsCompleted >= 15) {
+						System.out.println("========================================");
+						System.out.printf("The Winner is %s%n%s was the first to complete 15 laps.\n", getName(), getName());
+						System.out.println("========================================");						
+						break;
+					}
+				}
+				else if(getName().equals("Porche")) {
+					System.out.printf("%s on Lap #  %.2f%n",getName(),lapsCompleted);
+					System.out.printf("%s Laps Remaining  %.2f%n",getName(), (15 - lapsCompleted));
+					int geneartor = rand.nextInt(333);
+					sleepTime += geneartor;
+					Thread.sleep( geneartor);				
+					if(lapsCompleted >= 15) {		
+						System.out.println("========================================");
+						System.out.printf("The Winner is %s%n%s was the first to complete 15 laps.\n", getName(), getName());
+						System.out.println("========================================");					
+						break;
+					}
+					System.out.println();
+					System.out.println("*****************");
+				}
+
+			} catch (InterruptedException e) {
+				System.out.println("Can't Race, Engine blow up" + e);
+			}
+
+			System.out.println();
+		}while(raceNow); //end do loop
+
+
+	}//end run method
+
+}//end class RacCarThread
+

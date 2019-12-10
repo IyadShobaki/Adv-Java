@@ -1,0 +1,25 @@
+package Teacher;
+
+public class EX04ThreadThings01Driver {
+
+	public static void main(String[] args) {
+		EX04ThreadThings Alvin = new EX04ThreadThings("Alvin");
+		EX04ThreadThings Theodore = new EX04ThreadThings("Theodore");
+		EX04ThreadThings Simon = new EX04ThreadThings("Simon");
+		
+		Alvin.start();
+		Simon.start();
+		Theodore.start();
+		
+		while(Alvin.isAlive() || Simon.isAlive() || Theodore.isAlive()) {
+			//do nothing just wait
+		}
+		
+		System.out.println("Alvin slept " + Alvin.totalSleep);
+		System.out.println("Simon slept " + Simon.totalSleep);
+		System.out.println("Theodore slept " + Theodore.totalSleep);
+		
+		
+	}
+
+}

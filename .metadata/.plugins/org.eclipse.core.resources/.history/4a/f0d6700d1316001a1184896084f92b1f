@@ -1,0 +1,28 @@
+package Teacher;
+
+public class EX03SleepMessages {
+
+	public static void main(String[] args) {
+		
+		String importantInfo[] = {
+				"Four Score and seven years ago",
+				"Our Fathers,",
+				"   Brought forth upon this Continent",
+				"    A new Nation",
+				"      conceived in Liberty,",
+				"        and dedicated to the proposition",
+				"          that all men are created equal.\n",
+				"A. Lincoln November 1863, Gettysburg, PA \n"
+				
+		}; //end initializer for importantInfo
+
+		for(int i =0; i < importantInfo.length; i++) {
+			//Print a message
+			System.out.println(importantInfo[i]);
+			//Pause fro about 2 seconds
+			Thread.sleep(2000);
+
+		}
+	}
+
+}

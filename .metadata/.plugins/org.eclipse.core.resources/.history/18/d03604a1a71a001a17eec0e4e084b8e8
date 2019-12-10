@@ -1,0 +1,29 @@
+//HackerRank 
+public class CountingValleys {
+
+	public static void main(String[] args) {
+		
+		System.out.println(countingValleys(8, "UDDDUDUU"));
+		
+		System.out.println(countingValleys(12, "DDUUDDUDUUUD"));
+		System.out.println(countingValleys(8, "DDUUUUDD"));
+	}
+	 public static int countingValleys(int n, String s) {
+	    
+		int count =0;
+		int val =0;
+		for(int i =0; i < n; i++) {
+			if(s.charAt(i) == 'U') {
+				val++;
+			}
+			if(s.charAt(i) == 'D') {
+				val--;
+			}
+			if(val == -2) {
+				count++;
+			}
+		}
+		 
+		 return count;
+	 }
+}

@@ -1,0 +1,12 @@
+
+public class Ceiling {
+	private int height;
+	private int paintColor;
+	public Ceiling(int height, int paintColor) {
+		super();
+		this.height = height;
+		this.paintColor = paintColor;
+	}
+	
+	
+}

@@ -1,0 +1,38 @@
+Name: Coat 
+Artifact ID: 1 
+Artifact Year: 1888 
+Acquired Year: 1889 
+Value: 1.10
+
+The previous record error/s:
+1-Acquired Year -- Must be greater than 1899 and greater than or equal to artifactYear and less than or equal to current year
+
+Name: Cartridge 
+Artifact ID: 3 
+Artifact Year: 1863 
+Acquired Year: 1913 
+Value: -22.22
+
+The previous record error/s:
+1-Value -- Must be greater than  or equal to 0
+
+Name: TentOfficerWall 
+Artifact ID: 0 
+Artifact Year: 1863 
+Acquired Year: 1861 
+Value: -777.00
+
+The previous record error/s:
+1-Artifact ID -- Must be greater than 0
+2-Acquired Year -- Must be greater than 1899 and greater than or equal to artifactYear and less than or equal to current year
+3-Value -- Must be greater than  or equal to 0
+
+Name: MapPaChambersburg 
+Artifact ID: 13 
+Artifact Year: 1864 
+Acquired Year: 1813 
+Value: 1234.56
+
+The previous record error/s:
+1-Acquired Year -- Must be greater than 1899 and greater than or equal to artifactYear and less than or equal to current year
+

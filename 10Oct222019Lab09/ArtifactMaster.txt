@@ -1,0 +1,60 @@
+Name: Buckle 
+Artifact ID: 2 
+Artifact Year: 1856 
+Acquired Year: 1913 
+Value: 1111.11
+
+Name: Stove 
+Artifact ID: 4 
+Artifact Year: 1865 
+Acquired Year: 1915 
+Value: 333.33
+
+Name: Harness 
+Artifact ID: 5 
+Artifact Year: 1861 
+Acquired Year: 1918 
+Value: 4444.44
+
+Name: Wheel 
+Artifact ID: 6 
+Artifact Year: 1861 
+Acquired Year: 1945 
+Value: 555.55
+
+Name: TentShelter 
+Artifact ID: 7 
+Artifact Year: 1862 
+Acquired Year: 1951 
+Value: 666.66
+
+Name: MapVaBullRun 
+Artifact ID: 9 
+Artifact Year: 1864 
+Acquired Year: 1969 
+Value: 88.88
+
+Name: Canteen 
+Artifact ID: 10 
+Artifact Year: 1865 
+Acquired Year: 1954 
+Value: 9.09
+
+Name: Blanket 
+Artifact ID: 11 
+Artifact Year: 1863 
+Acquired Year: 1993 
+Value: 10.00
+
+Name: SurgeonTools 
+Artifact ID: 12 
+Artifact Year: 1800 
+Acquired Year: 2013 
+Value: 11111.00
+
+Name: MapDC 
+Artifact ID: 14 
+Artifact Year: 1860 
+Acquired Year: 2019 
+Value: 8989.00
+

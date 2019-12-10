@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;LargestPrime&apos; to &apos;DiamondShape&apos;&#x0D;&#x0A;- Original project: &apos;UdemyJavaRepeatCoding&apos;&#x0D;&#x0A;- Original element: &apos;LargestPrime&apos;&#x0D;&#x0A;- Renamed element: &apos;DiamondShape&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;LargestPrime&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{LargestPrime.java[LargestPrime" matchStrategy="1" name="DiamondShape" qualified="false" references="true" similarDeclarations="false" stamp="1574910782014" textual="false" version="1.0"/>
+</session>

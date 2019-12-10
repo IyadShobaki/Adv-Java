@@ -1,0 +1,18 @@
+//HackerRank
+public class BinaryNumbers {
+
+	public static void main(String[] args) {
+	 System.out.println(consecutiveOnes(34));
+	 
+	// System.out.println(1%2);
+	}
+	public static int consecutiveOnes(int n) {
+		
+		while(n > 0) {
+			System.out.print((n%2) + " ");
+			n /= 2;
+		}
+		System.out.println();
+		return 0;
+	}
+}

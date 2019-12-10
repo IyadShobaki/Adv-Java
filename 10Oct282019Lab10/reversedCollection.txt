@@ -1,0 +1,17 @@
+    Group ID            ID                  Last Name           
+------------------------------------------------------------
+    59                  1954                Vaughn              
+    65                  1909                Tatum               
+    59                  1977                Sheppard            
+    60                  1910                Shaw                
+    62                  1917                Rich                
+    65                  1890                Morton              
+    63                  1922                Mingus              
+    64                  1904                Miller              
+    66                  1925                King                
+    65                  1899                Ellington           
+    64                  1905                Dorsey              
+    61                  1926                Davis               
+    61                  1903                Beiderbecke         
+    65                  1904                Basie               
+    61                  1901                Armstrong           

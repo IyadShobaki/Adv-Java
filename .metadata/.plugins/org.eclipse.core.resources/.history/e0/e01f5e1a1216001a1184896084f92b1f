@@ -1,0 +1,44 @@
+package Teacher;
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
+public class EX01HelloThread extends Thread{
+	
+	public EX01HelloThread(String name) {
+		super(name);
+	}
+	public EX01HelloThread() {
+		super();
+	}
+	public void run() {
+		DateFormat df = new SimpleDateFormat("dd/MM/yy HH:mm:ss");
+		Calendar calobj = Calendar.getInstance();
+//		System.out.print(df.format(calobj.getTime()));
+		//System.out.println("      Hello from athread in run()!    " + getName());
+		System.out.println(df.format(calobj.getTime()) + "\n      Hello from athread in run()!    " + getName());
+		try {
+			sleep(3500);
+		} catch (InterruptedException e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		calobj = Calendar.getInstance();
+		//System.out.print(df.format(calobj.getTime()));
+		System.out.println(df.format(calobj.getTime()) + "\n      Hello Again from a thread in run()!    " + getName());
+	}//end run method
+	
+	public static void main(String[] args) {
+		EX01HelloThread hello1 = new EX01HelloThread("hello1");
+		//hello1.run();
+		hello1.start();
+
+		EX01HelloThread hello2 = new EX01HelloThread("hello2");
+		hello2.start();
+		
+		
+		System.out.println("Hello from the main and best method!! THE END");
+	}
+
+}

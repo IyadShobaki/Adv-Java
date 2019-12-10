@@ -1,0 +1,33 @@
+
+
+public class RaceCarThreadTest {
+
+	public static void main(String[] args) {
+		
+
+		RaceCarThread corvette, ferrari, viper, audi, porche;
+		corvette = new RaceCarThread("Corvette");
+		ferrari = new RaceCarThread("Ferrari");
+		viper = new RaceCarThread("Viper");
+		audi = new RaceCarThread("Audi");
+		porche = new RaceCarThread("Porche");
+		
+
+		corvette.start();
+		ferrari.start();
+		viper.start();
+		audi.start();
+		porche.start();
+		
+		while(corvette.isAlive() || ferrari.isAlive() || viper.isAlive()|| audi.isAlive()|| porche.isAlive()) {
+			
+		}
+		
+		System.out.printf("Corvette was in the pit %.3f seconds%n", (double)corvette.corvetteSleep / 1000);
+		System.out.printf("Ferrari was in the pit %.3f seconds%n" , (double)ferrari.ferrariSleep/ 1000);
+		System.out.printf("Viper was in the pit %.3f seconds%n", (double)viper.viperSleep/ 1000);
+		System.out.printf("Audi was in the pit %.3f seconds%n",(double) audi.audiSleep/ 1000);
+		System.out.printf("Porche was in the pit %.3f seconds%n",(double)porche.porscheSleep/ 1000);
+	}
+
+}

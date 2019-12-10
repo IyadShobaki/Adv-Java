@@ -1,0 +1,13 @@
+//HackerRank
+public class BinaryNumbers {
+
+	public static void main(String[] args) {
+	 System.out.println(consecutiveOnes(5));
+
+	}
+	public static int consecutiveOnes(int n) {
+		
+		
+		return 0;
+	}
+}
